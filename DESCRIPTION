@@ -1,12 +1,8 @@
 Package: root_metauav
-Title: An Amazing Shiny App
+Title: Esqueleto_para_metauav
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
+Authors@R: person('António', 'Rodrigues', email = 'antonio@valedeceras.pt', role = c('cre', 'aut'))
+Description: A primeira...
 License: What license is it under?
 Imports: 
     config (>= 0.3.1),
