@@ -16,8 +16,20 @@
 ## Dependencies ----
 ## Amend DESCRIPTION with dependencies read from package code parsing
 ## install.package('attachment') # if needed.
+usethis::use_package("DBI")
+usethis::use_package("shiny")
+usethis::use_package("leaflet")
+usethis::use_package("leaflet.extras")
+usethis::use_package("sf")
+usethis::use_package("shinythemes")
+usethis::use_package("reactable")
+usethis::use_package("crosstalk")
+usethis::use_package("shinyTime")
+usethis::use_package("htmltools")
+usethis::use_package("shinydashboard")
 attachment::att_amend_desc()
 
+##### APARTIR DAQUI ESTÃO AS OPÇOES QUE NÃO USEI ##################################
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
